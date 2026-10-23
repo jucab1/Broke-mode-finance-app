@@ -1,0 +1,29 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# local env files
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# logs
+npm-debug.log*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Deployment settings
+.vercel
+
+# Debug logs
+*.log
